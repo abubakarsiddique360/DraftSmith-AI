@@ -1,0 +1,8 @@
+title = "Hybrid Retrieval, Explained"
+description = "When keyword search stops being enough, and how to blend it with vectors."
+primary_keyword = "hybrid retrieval"
+audience = "backend engineers who already ship search"
+tone = "practical"
+target_words = 1400
+format = "tutorial"
+tags = ["retrieval", "search", "rag"]
