@@ -7,7 +7,7 @@ name = "draftsmith"
 version = "0.1.0"
 description = "Turn a short TOML brief into a structured blog draft, then lint it for readability, structure and keyword hygiene."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "ABU BAKAR SIDDIQUE" }]
 keywords = ["writing", "blog", "content", "editorial", "readability", "seo", "cli", "python"]
@@ -16,7 +16,6 @@ classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Text Processing :: Markup :: Markdown",

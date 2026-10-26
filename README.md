@@ -8,7 +8,7 @@ and keyword hygiene. It runs offline, has **zero dependencies**, and never
 invents prose: the generator produces a scaffold, and every check is explainable.
 
 [![CI](https://github.com/abubakarsiddique360/DraftSmith-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/abubakarsiddique360/DraftSmith-AI/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.12-blue)](pyproject.toml)
+[![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue)](pyproject.toml)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)](pyproject.toml)
 
@@ -26,6 +26,8 @@ Use the scaffold yourself, or hand it to any model as a strict outline. The lint
 still works on whatever comes back.
 
 ## Install
+
+Requires Python 3.11 or newer ? briefs are parsed with the standard library `tomllib`.
 
 ```bash
 git clone https://github.com/abubakarsiddique360/DraftSmith-AI.git
